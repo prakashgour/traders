@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>UserLogin</title>
+    </head>
+    <body>
+        <form method="post" action="login"  >
+           <h2>Gerrit user login</h2>
+        User name:  <input type="text" name="user" />*<br/><br/>
+        Password :  <input type="password" name="pass" /><br/><br/>
+        <input type="hidden" name ="register" value="false" />
+        <input type="submit" value="Login" /><br/><br/>
+        </form>
+        
+        <form method ="post" action="login">
+        <input type="hidden" name ="register" value="true" />
+       For Sign Up:  <input type="submit" value="Go" /><br/>
+        </form>
+    </body>
+</html>
